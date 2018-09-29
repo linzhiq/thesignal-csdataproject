@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400i');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400');
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url('../fonts/cerebrisans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url('../fonts/cerebrisans-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url('../fonts/cerebrisans-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url('../fonts/cerebrisans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url('../fonts/cerebrisans-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+}
+
+#social {
+    margin-bottom: 80px;
+}
+
+* {
+    font-family: "Cerebri Sans", sans-serif !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    padding: 50px 6% 50px 6%;
+
+    width: 100%;
+    height: 200px;
+}
+
+#header > * {
+    height: 60px;
+    line-height: 60px;
+
+    white-space: nowrap;
+    float: left;
+
+    font-size: 28px;
+
+    font-family: 'Cerebri Sans', Helvetica, sans-serif;
+}
+
+#logo {
+    height: 100%;
+}
+
+#lockup {
+    margin-left: 4%;
+
+    font-weight: bold;
+}
+
+
+#subscribe {
+    margin-left: 50px;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#subscribe h3 {
+    padding-top: 50px;
+}
+
+#subscribe-img {
+    float: right;
+    width: 70%;
+
+    margin-right: 20px;
+}
+
+#subscribe-text {
+    margin-top: 20px;
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+input {
+    font-size: 16px;
+
+    margin-left: -8px;
+    padding: 15px;
+
+    border: 0;
+    border-radius: 5px;
+
+    background-color: #f0f0f0;
+
+    height: 40px;
+    width: 240px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 14px;
+
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0 15px;
+
+    border: 1.5px solid lightgray;
+
+    background-color: transparent;
+
+    position: relative;
+
+    height: 40px;
+}
+
+button:hover {
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+.note {
+    background-color: rgba(255, 0, 0, 0.2);
+
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.note h1 {
+    font-size: 24px;
+
+    margin-bottom: -10px;
+}
+
+.note h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.ui.text.menu {
+    font-size: 16px;
+    margin: -20px 40px 40px;
+}
+
+.ui.text.menu .item {
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.ui.text.menu .item.active {
+    font-weight: bold;
+}
+
+.school {
+    margin-top: 30px;
+}
+
+.graph {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.text {
+    margin-top: 40px;
+
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.text * {
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.text ul li::before {
+    content: "•  ";
+    color: #2F80ED; /* or whatever color you prefer */
+}
+
+.text ul {
+    list-style: none;
+
+    text-indent: -.7em;
+    padding: 0;
+    margin: 8px 0 0 10px;
+}
+
+.text li {
+    margin-top: 4px;
+}
+
+#credits {
+    margin-top: 100px;
+
+    text-align: center;
+
+    padding-bottom: 100px;
+}
+
+#credits h3 {
+    font-size: 16px;
+    color: grey;
+}
+
+#credits h1 {
+    font-size: 11px;
+    color: grey;
+
+    text-transform: uppercase;
+
+    margin: 5px;
+}
+
+#credits h2 {
+    font-size: 16px;
+    color: dimgrey;
+
+    margin: 0;
+    padding: 3px;
+}
+
+#credits h2 > a {
+    text-decoration: underline;
+    text-decoration-color: darkgray;
+}
+
+@media screen and (min-width: 1280px) {
+    #letter-text {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        zoom: 80%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #letter-bullet {
+        display: none;
+    }
+
+    #header * {
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .note {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header * {
+        height: 54px;
+        font-size: 20px;
+    }
+}

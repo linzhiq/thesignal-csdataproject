@@ -1,0 +1,267 @@
+<html>
+<head>
+    <title>The Signal - Deconstructing Penn Pathways</title>
+
+    <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="/assets/thesignal.ico?v=d4f90dbc9c">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/thesignal-anniversary.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/thesignal-csdataproject.css">
+
+    <!-- Hotjar Tracking Code for thesign.al -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 672639, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header">
+    <a href="/">
+        <img id="logo" src="images/tower.svg">
+    </a>
+    <a id="lockup" href="/">The Signal </a>
+    <div id="title"> - Deconstructing Penn Pathways</div>
+</div>
+
+<!--<div id="social">-->
+<!--<div class="fb-like" data-href="http://thesign.al/pages/anniversary/" data-layout="standard"-->
+<!--data-action="like" data-size="large" data-show-faces="true" data-share="true">-->
+<!--</div>-->
+<!--</div>-->
+
+<div class="note" style="display: none;">
+    <h1>NOTE</h1>
+    <h2>These visualizations work a lot better on bigger screens. Trust us: It will be worth it.</h2>
+</div>
+
+<div class="ui">
+    <div class="ui text menu">
+        <div class="header item">Choose Your School</div>
+
+        <div class="right menu">
+            <a class="active item" data-school="college">
+                College
+            </a>
+            <a class="item" data-school="engineering">
+                Engineering
+            </a>
+            <a class="item" data-school="wharton">
+                Wharton
+            </a>
+            <a class="item" data-school="nursing">
+                Nursing
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <div id="college" class="school">
+        <div class="graph">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~hoytgong/3.embed"></iframe>
+        </div>
+        <div class="text">
+            <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
+                the
+                College of Arts and Sciences undergraduate class as a whole.</i>
+
+            <ul>
+                <li>With the diversity of interests and fields that the College provides, students commonly pursue a
+                    variety
+                    of
+                    internship and job opportunities both while at Penn and post-graduation.
+                </li>
+                <li>21% of seniors sought to continue their education post graduation instead of pursuing an immediate
+                    full-time job.
+                </li>
+                <li>10% of students sought to enter careers in financial services while another 10% entered consulting
+                    full-time.
+                </li>
+                <li>The “Other” category includes people who did not fill out the survey for that year as well as
+                    categories
+                    that were
+                    not among the top 7 most popular during that year (these excluded categories include legal services,
+                    manufacturing,
+                    traveling, transportation, design, insurance, energy/natural resources/utilities, accounting,
+                    hospitality, classes,
+                    independent research, real estate/construction, and study abroad).
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div hidden id="engineering" class="school">
+        <div class="graph">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~oodwyer/1.embed"></iframe>
+        </div>
+        <div class="text">
+            <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
+                the
+                engineering class as a whole.</i>
+            <ul>
+                <li>About 33% of graduating seniors went into full time technology jobs, stemming from over five fields
+                    from
+                    the previous summer.
+                </li>
+
+                <li>68% of the students who worked in technology after their junior year went into technology as their
+                    full
+                    time job.
+                </li>
+
+                <li>76% of students who had a junior year technology internship did not work in technology after their
+                    sophomore year.
+                </li>
+
+                <li>67% of the students who worked in financial services after their junior year went into financial
+                    services as their full time job.
+                </li>
+
+                <li>84% of students who had a junior year financial services internship did not work in financial
+                    services
+                    after their sophomore year.
+                </li>
+                <li>The “Other” category includes people who did not fill it out for that year, as well as categories
+                    with
+                    less than 4 per year, including traveling, transportation, government, and design.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div hidden id="wharton" class="school">
+        <div class="graph">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~scye09/1.embed"></iframe>
+        </div>
+        <div class="text">
+            <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
+                the
+                Wharton undergraduate class as a whole.</i>
+            <ul>
+                <li>The top three industries that graduating seniors entered via their full-time jobs were financial
+                    services, consulting, and technology: 47% found employment in the financial services sector, 18% in
+                    consulting, and 14% in technology.
+                </li>
+
+                <li>80% of the students who worked in financial services after their junior year went into financial
+                    services as their full time job.
+                </li>
+
+                <li>32% of graduating seniors who had a full-time job in consulting had a consulting internship in their
+                    junior year.
+                </li>
+
+                <li>67% of the students who worked in technology after their junior year went into technology as their
+                    full
+                    time job.
+                </li>
+
+                <li>5% of students had a financial services internship each summer and found full-time employment in
+                    finance
+                    after graduating.
+                </li>
+
+                <li>The “Other” category includes people who did not fill it out for that year as well as categories
+                    that
+                    were among the top 8 most popular during that year (these excluded categories include traveling,
+                    transportation, government, design, insurance, nonprofit, energy/natural resources/utilities,
+                    accounting, healthcare, hospitality, classes, independent research, and study abroad).
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div hidden id="nursing" class="school">
+        <div class="graph">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~lagao/1.embed"></iframe>
+        </div>
+        <div class="text">
+            <i>TBD</i>
+
+            <ul>
+                <li>TBD
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="subscribe">
+    <h3>
+        Like this article
+    </h3>
+    <div class="fb-like fb_iframe_widget" style="left: 0" data-href="http://thesign.al/pages/deconstructing-penn-pathways/"
+         data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"
+         fb-xfbml-state="rendered"
+         fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=http%3A%2F%2Fthesign.al%2Fpages%2Fanniversary%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small">
+        <span style="vertical-align: bottom; width: 450px; height: 56px;"><iframe name="f1ba2f20f8b6ea" width="1000px"
+                                                                                  height="1000px" frameborder="0"
+                                                                                  allowtransparency="true"
+                                                                                  allowfullscreen="true" scrolling="no"
+                                                                                  allow="encrypted-media"
+                                                                                  title="fb:like Facebook Social Plugin"
+                                                                                  src="https://www.facebook.com/v2.12/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FRQ7NiRXMcYA.js%3Fversion%3D42%23cb%3Dffd532ad4bba5%26domain%3Dthesign.al%26origin%3Dhttp%253A%252F%252Fthesign.al%252Ff2973a1e9c0ccc%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fthesign.al%2Fpages%2Fanniversary%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"
+                                                                                  style="border: none; visibility: visible; width: 450px; height: 56px;"
+                                                                                  class=""></iframe></span></div>
+
+    <h3>
+        Subscribe to our newsletter
+    </h3>
+    <form method="post" action="/subscribe/" class="">
+        <input class="confirm" type="hidden" name="confirm"><input class="location" type="hidden" name="location"
+                                                                   value="http://www.thesign.al/"><input
+            class="referrer" type="hidden" name="referrer" value="">
+
+        <div class="form-group" style="float: left;">
+            <input class="subscribe-email" type="email" name="email" placeholder="Your email address">
+        </div>
+        <button class="" type="submit">SUBSCRIBE</button>
+        <script type="text/javascript">(function (g, h, o, s, t) {
+            h[o]('.location')[s] = h[o]('.location')[s] || g.location.href;
+            h[o]('.referrer')[s] = h[o]('.referrer')[s] || h.referrer;
+        })(window, document, 'querySelector', 'value');</script>
+    </form>
+</div>
+
+<div id="credits">
+    <h3>ⓒ 2018 The Signal Team.</h3>
+    <h1>Visualization</h1>
+    <h2>Laura Gao</h2>
+    <h2>Hoyt Gong</h2>
+    <h2>Olivia O'Dwyer</h2>
+    <h2>Sophia Ye</h2>
+    <h1>Design and Development</h1>
+    <h2>Laura Gao</h2>
+    <h2>Qi Linzhi</h2>
+</div>
+
+<!--<script src="js/tilt.jquery.min.js"></script>-->
+</body>
+</html>
+
