@@ -87,17 +87,17 @@ a {
     font-weight: bold;
 }
 
-
 #subscribe {
+    display: flex;
+    flex-direction: row;
+
     margin-left: 50px;
+    margin-top: 20px;
 
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-#subscribe h3 {
-    padding-top: 50px;
-}
 
 #subscribe-img {
     float: right;
@@ -107,10 +107,48 @@ a {
 }
 
 #subscribe-text {
-    margin-top: 20px;
-
     font-size: 24px;
     font-weight: 500;
+}
+
+#subscribe-facebook {
+    flex: 2;
+}
+
+.fb-like {
+    margin-top: 12px;
+}
+
+#subscribe-newsletter {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 2;
+
+    text-align:right;
+}
+
+.subscribe-gap {
+    flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    #subscribe {
+        flex-direction: column;
+    }
+    #subscribe-facebook {
+        margin-bottom: 20px;
+    }
+    #subscribe-newsletter {
+        flex-direction: row;
+        text-align: left;
+    }
+    .fb-like {
+        margin-top: -5px;
+        margin-bottom: 5px;
+    }
+    .subscribe-email {
+        margin-left:0;
+    }
 }
 
 input {
