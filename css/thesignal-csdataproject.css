@@ -91,7 +91,6 @@ a {
     display: flex;
     flex-direction: row;
 
-    margin-left: 50px;
     margin-top: 20px;
 
     padding-top: 50px;
@@ -131,24 +130,9 @@ a {
     flex: 1;
 }
 
-@media only screen and (max-width: 600px) {
-    #subscribe {
-        flex-direction: column;
-    }
-    #subscribe-facebook {
-        margin-bottom: 20px;
-    }
-    #subscribe-newsletter {
-        flex-direction: row;
-        text-align: left;
-    }
-    .fb-like {
-        margin-top: -5px;
-        margin-bottom: 5px;
-    }
-    .subscribe-email {
-        margin-left:0;
-    }
+.lineator {
+    display: flex;
+    flex-direction: row;
 }
 
 input {
@@ -231,8 +215,8 @@ button:hover {
 .text {
     margin-top: 40px;
 
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 16%;
+    margin-right: 15%;
 }
 
 .text * {
@@ -254,7 +238,7 @@ button:hover {
 }
 
 .text li {
-    margin-top: 4px;
+    margin-top: 12px;
 }
 
 #credits {
@@ -262,7 +246,7 @@ button:hover {
 
     text-align: center;
 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #credits h3 {
@@ -323,5 +307,50 @@ button:hover {
     #header * {
         height: 54px;
         font-size: 20px;
+    }
+}
+
+#title {
+    margin-left: 10px;
+}
+#title-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #subscribe {
+        flex-direction: column;
+        margin-left: 16%;
+    }
+    #subscribe-facebook {
+        margin-bottom: 20px;
+    }
+    #subscribe-newsletter {
+        flex-direction: row;
+        text-align: left;
+    }
+    .fb-like {
+        margin-top: -5px;
+        margin-bottom: 5px;
+    }
+    .subscribe-email {
+        margin-left:0;
+    }
+
+    .text {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 743px) {
+    #title {
+        display: none;
+    }
+
+    #title-mobile {
+        display: inline-block;
+    }
+    #lockup {
+        margin-right: 40px;
     }
 }
