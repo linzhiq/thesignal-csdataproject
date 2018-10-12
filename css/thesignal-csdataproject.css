@@ -317,6 +317,31 @@ button:hover {
     display: none;
 }
 
+.graph-x-axis {
+    padding-left: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-x-axis-flow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+}
+
+.graph-x-axis-element {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.graph-x-axis-float {
+    flex: 1;
+    justify-content: flex-end;
+}
+
 @media only screen and (max-width: 900px) {
     #subscribe {
         flex-direction: column;
