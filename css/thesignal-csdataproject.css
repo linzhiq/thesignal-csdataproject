@@ -44,6 +44,28 @@ body {
     max-width: 100%;
 }
 
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-bottom: 100px;
+}
+
+.intro h1::before {
+    content: "•  ";
+    color: #2F80ED; /* or whatever color you prefer */
+}
+
+.intro h1 {
+    margin-left: -15px;
+    font-size: 24px;
+}
+
+.intro p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
 #social {
     margin-bottom: 80px;
 }
@@ -315,31 +337,6 @@ button:hover {
 }
 #title-mobile {
     display: none;
-}
-
-.graph-x-axis {
-    padding-left: 2vw;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.graph-x-axis-flow {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex: 20;
-}
-
-.graph-x-axis-element {
-    display: flex;
-    flex: 1;
-    justify-content: flex-start;
-}
-
-.graph-x-axis-float {
-    flex: 1;
-    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 900px) {

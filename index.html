@@ -61,6 +61,45 @@
     <h2>These visualizations work a lot better on bigger screens. Trust us: It will be worth it.</h2>
 </div>
 
+<div class="intro">
+    <h1>
+        Introduction
+    </h1>
+    <p>Deconstructing Penn Pathways is an interactive data project conducted by <a href="/">The Signal</a>, in partnership with Career
+        Services, that links what students did each summer to their pursuits post-grad. Our purpose is to alleviate
+        confusion around choosing a “perfect internship” and expose students to a diverse set of possible journeys to
+        take here at Penn.
+
+        The sample includes 2231 students in the Class of 2017 surveyed by Career Services, with 553 from the Wharton
+        School, 340 from the Engineering School, 129 from the Nursing School, and 1317 from the College of Arts and
+        Sciences.
+    </p>
+
+    <h1>
+        Methodology
+    </h1>
+    <p>
+        Data was collected by Career Services in their annual survey and analyzed and visualized using R and Plot.ly.
+        Categories were defined by academic advisors from each school.
+
+        The Signal did not alter any category, except for detailing the type of “Healthcare” for the Nursing School as
+        opposed to keeping it general for other schools for better data visualization. In addition, we created an
+        “Other” category that includes people who did not complete the survey for that year and categories with an
+        insignificant number of students pursuing them. The statistics below apply only to students in this survey and
+        may not accurately reflect the Penn undergraduate class as a whole.
+    </p>
+
+    <h1>
+        How to Interpret Visualizations:
+    </h1>
+    <p>Each bar is a category and its height represents its popularity among students that year. By hovering over the
+        bar in this example, readers can determine that 64 students interned in Technology that year. Students came from
+        two different categories the year prior and went into three different categories the year after.
+
+        By hovering over the linked path, readers can see the number of students that pursued A (labeled as “Target”)
+        after pursuing B (labeled as “Source”) the previous year. </p>
+</div>
+
 <div class="ui">
     <div class="ui text menu">
         <div class="header item">Choose Your School</div>
@@ -87,22 +126,6 @@
         <div class="graph">
             <iframe width="100%" height="500px" frameborder="0" scrolling="no"
                     src="//plot.ly/~hoytgong/3.embed?autosize=True"></iframe>
-            <div class = "graph-x-axis">
-                <div class = "graph-x-axis-flow">
-                    <div class = "graph-x-axis-element">
-                        Freshman Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Sophomore Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Junior Summer
-                    </div>
-                </div>
-                <div class = "graph-x-axis-float">
-                    Graduation
-                </div>
-            </div>
         </div>
         <div class="text">
             <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
@@ -138,22 +161,6 @@
         <div class="graph">
             <iframe width="100%" height="500px" frameborder="0" scrolling="no"
                     src="//plot.ly/~oodwyer/1.embed?autosize=True"></iframe>
-            <div class = "graph-x-axis">
-                <div class = "graph-x-axis-flow">
-                    <div class = "graph-x-axis-element">
-                        Freshman Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Sophomore Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Junior Summer
-                    </div>
-                </div>
-                <div class = "graph-x-axis-float">
-                    Graduation
-                </div>
-            </div>
         </div>
         <div class="text">
             <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
@@ -194,22 +201,6 @@
         <div class="graph">
             <iframe width="100%" height="500px" frameborder="0" scrolling="no"
                     src="//plot.ly/~scye09/1.embed?autosize=True"></iframe>
-            <div class = "graph-x-axis">
-                <div class = "graph-x-axis-flow">
-                    <div class = "graph-x-axis-element">
-                        Freshman Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Sophomore Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Junior Summer
-                    </div>
-                </div>
-                <div class = "graph-x-axis-float">
-                    Graduation
-                </div>
-            </div>
         </div>
         <div class="text">
             <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
@@ -253,28 +244,24 @@
         <div class="graph">
             <iframe width="100%" height="500px" frameborder="0" scrolling="no"
                     src="//plot.ly/~lagao/1.embed?autosize=True"></iframe>
-            <div class = "graph-x-axis">
-                <div class = "graph-x-axis-flow">
-                    <div class = "graph-x-axis-element">
-                        Freshman Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Sophomore Summer
-                    </div>
-                    <div class = "graph-x-axis-element">
-                        Junior Summer
-                    </div>
-                </div>
-                <div class = "graph-x-axis-float">
-                    Graduation
-                </div>
-            </div>
         </div>
         <div class="text">
-            <i>TBD</i>
+            <i>The statistics below apply only to the students who filled out this survey and may not accurately reflect
+                the
+                nursing undergraduate class as a whole.</i>
 
             <ul>
-                <li>TBD
+                <li>Top five categories that graduating seniors in the sample entered for full-time were: Hospital (79%
+                    of sample), Grad School (12% of sample), Seeking Employment (8% of sample), Community/Public Health
+                    Center (5% of sample), and Other (5% of sample).
+                </li>
+                <li>
+                    The sample of students from the Nursing School had the highest percentage still seeking employment
+                    post-graduation of all four undergraduate schools.
+                </li>
+                <li>
+                    “Other” includes Education Work, Financial Services, Military Service, Nonprofit, and Not Seeking
+                    Employment.
                 </li>
             </ul>
         </div>
@@ -341,7 +328,7 @@
     <h1>Design and Development</h1>
     <h2>Laura Gao</h2>
     <h2>Qi Linzhi</h2>
-    <h2>HCM</h2>
+    <h2>Halil Can Memoglu</h2>
 </div>
 
 <!--<script src="js/tilt.jquery.min.js"></script>-->
